@@ -5,6 +5,7 @@ body {
     font-size: 11pt;
     background-image: url('/images/background.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 div {
