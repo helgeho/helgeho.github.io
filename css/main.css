@@ -187,6 +187,7 @@ nav hr {
 
 #content nav hr {
     margin-top: 20px;
+    margin-bottom: 30px;
     width: 100%;
     display: block;
 }
