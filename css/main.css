@@ -3,9 +3,20 @@ body {
     padding: 0;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 11pt;
+    line-height: 140%;
     background-image: url('/images/background.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center 10%;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div {
@@ -85,33 +96,26 @@ img {
     background: linear-gradient(to right, rgba(150, 150, 150, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 50%, rgba(150, 150, 150, 1) 100%);
 }
 
-#leftcontainer .content {
-    margin-top: 85px;
-    margin-right: 35px;
-    text-align: justify;
-}
-
-#rightcontainer .content {
+#content {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 30px;
     top: 65px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
-#leftcontainer {
+.leftcontainer {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 4px;
+    top: 20px;
     bottom: 0;
-    width: 237px;
+    width: 212px;
+    text-align: justify;
 }
 
-#rightcontainer {
+#rightgradients {
     background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0px 0px 72px -18px rgba(0, 0, 0, 0.75);
 }
@@ -124,7 +128,42 @@ img {
     width: 663px;
 }
 
-nav {
+#content .leftcontainer {
+    display: none;
+}
+
+#content .rightcontainer {
+    left: 260px;
+    right: 20px;
+    top: 15px;
+    width: auto;
+}
+
+#contact-links li {
+    display: block;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+#aboutfooter {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#aboutfooter hr {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#fixedabout {
+    top: 85px;
+}
+
+nav hr {
+    display: none;
+}
+
+.header nav {
     position: absolute;
     top: -8px;
     right: 20px;
@@ -136,9 +175,65 @@ nav {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+#content nav {
+    text-align: right;
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 14pt;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    display: none;
+}
+
+#content nav hr {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+#content nav ul {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#content nav ul li {
+    flex: 1;
+    padding-right: 50px;
+}
+
+#aboutfooter-link {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    width: 110px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 10pt;
+    line-height: 20px;
+    vertical-align: text-top;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#aboutfooter-link span {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
 nav ul {
     list-style-type: none;
     float: left;
+}
+
+.contenttext {
+    text-align: justify;
+}
+
+.contenttext li {
+    left: 20px;
 }
 
 .contenttext a:link, .contenttext a:active, .contenttext a:visited {
@@ -156,6 +251,10 @@ a:link, a:active, a:visited, a.nodecoration:link, a.nodecoration:active, a.nodec
     color: inherit;
 }
 
+hr {
+    color: #0088aa;
+}
+
 .contrast-color {
     color: #0088aa;
 }
@@ -171,4 +270,64 @@ a:link, a:active, a:visited, a.nodecoration:link, a.nodecoration:active, a.nodec
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.small-title {
+    font-size: 12pt;
+    margin-left: 1px;
+}
+
+@media (max-height: 860px) {
+    #fixedabout {
+        display: none;
+    }
+
+    #content .leftcontainer {
+        display: block;
+    }
+}
+
+@media (max-width: 920px) {
+    .pagebox {
+        width: 100%;
+    }
+
+    .leftcontainer {
+        display: none;
+    }
+
+    .rightcontainer {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    #content .rightcontainer {
+        left: 20px; 
+        right: 20px;
+    }
+
+    #aboutfooter {
+        display: inline-block;
+    }
+
+    #fixedabout {
+        display: none;
+    }
+
+    #content .leftcontainer {
+        display: none;
+    }
+
+    .header nav {
+        display: none;
+    }
+
+    #content nav {
+        display: block;
+    }
+
+    #aboutfooter-link {
+        display: block;
+    }
 }

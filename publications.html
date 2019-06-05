@@ -1,6 +1,16 @@
 <html>
 <head>
     <title>Helge Holzmann - @helgeho</title>
+
+    <script type="text/javascript">
+        (function () {
+            var width = 700;
+            var device = Math.min(screen.width, screen.height);
+            var scale = device / width;
+            document.write("<meta name=\"viewport\" content=\"width=" + width + ", user-scalable=no, initial-scale=" + scale + "\" />");
+        })();
+    </script>
+
     <link rel="shortcut icon" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/academicons.min.css">
@@ -24,51 +34,212 @@
         <div id="pageheader" class="pagebox">
             <a href="/"><img src="/images/logo.png" id="logo" /></a>
             <nav>
-                <ul class="fa-ul">
-                    <li><a href="/">Home <i class="fa fa-arrow-circle-left"></i></li>
-                    <li><a href="/">Research <i class="fa fa-arrow-circle-left"></i></li>
-                    <li><a href="/publications">Publications <i class="fa fa-arrow-circle-left"></i></li>
-                </ul>
-                <ul class="fa-ul">
-                    <li><a href="/">Private <i class="fa fa-arrow-circle-left"></i></a></li>
-                    <li><a href="/">Projects <i class="fa fa-arrow-circle-left"></i></a></li>
-                    <li><a href="/contact">Contact <i class="fa fa-arrow-circle-left"></i></a></li>
-                </ul>
-            </nav>
+    <ul class="fa-ul">
+        <li><a href="/">Home <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/consulting">Consulting <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/publications">Publications <i class="fa fa-arrow-circle-left"></i></li>
+    </ul>
+    <ul class="fa-ul">
+        <li><a href="/talks">Talks <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/projects">Projects <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/contact">Contact <i class="fa fa-arrow-circle-left"></i></a></li>
+    </ul>
+    <div style="clear: both;"></div>
+    <hr />
+</nav>
+            <a href="#aboutfooter-anchor" id="aboutfooter-link">
+                <span>about me</span>
+                <img src="/images/Helge_Holzmann_1.jpg" alt="about" style="height: 45px; border: 1px solid black;"/>
+            </a>
         </div>
     </div>
     <div id="pagecontainer" class="pagebox">
-        <div id="leftcontainer">
-            <div class="content">
-                <img src="/images/Helge_Holzmann.jpg" alt="Helge Holzmann"
-                     style="width: 210px; margin-bottom: 5px;"/>
-                <div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
-                     class="contrast-color">
-                    Helge Holzmann
-                </div>
-                <p style="margin-top: 3px; margin-bottom: 0px;" class="contenttext">
-                    I am a researcher and PhD candidate at the <a href="http://www.L3S.de" target="_blank">L3S Research Center</a> in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>.
-                    My main research interest is on Web archives and related topics, such as big data processing, graph
-                    analysis and information retrieval.
-                </p>
-                <ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px;">
-                    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
-                            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
-                    <li><a href="http://www.github.com/helgeho" target="_blank"><i
-                            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
-                    <li><a href="http://www.arxiv.org/a/holzmann_h_1" target="_blank"><i
-                            class="fa ai ai-arxiv-square fa-2x"></i> Helge on arXiv</a></li>
-                    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
-                            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
-                </ul>
-            </div>
+        <div id="fixedabout" class="leftcontainer">
+            <img src="/images/Helge_Holzmann_1.jpg" alt="Helge Holzmann" style="width: 210px; margin-bottom: 5px; margin-right: 10px; border: 1px solid black; float: left;"/>
+<div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
+        class="contrast-color">
+    Helge<span class="small-title">, Dr. (PhD)</span><br />
+    Holzmann
+</div>
+<p style="margin-top: 5px; margin-bottom: 2px; margin-left: 1px;" class="contenttext">
+    I am a software developer, researcher and consultant, located in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>, have a PhD in Computer Science, and work as Web Data Engineer for the <a href="https://archive.org" target="_blank">Internet Archive</a>. My focus is on the effective and efficient use of web archives and related topics, such as big data processing and information retrieval.
+</p>
+<ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px; float: left;">
+    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
+            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
+    <li><a href="https://www.github.com/helgeho" target="_blank"><i
+            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
+    <li><a href="https://www.xing.com/profile/Helge_Holzmann" target="_blank"><i
+            class="fa fa-xing-square fa-2x"></i> Helge on Xing</a></li>
+    <li><a href="https://www.linkedin.com/in/helgeho" target="_blank"><i
+            class="fa fa-linkedin-square fa-2x"></i> Helge on LinkedIn</a></li>
+    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
+            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
+</ul>
         </div>
-        <div id="rightcontainer" class="rightcontainer">
+        <div id="rightgradients" class="rightcontainer">
             <div id="rightheader-gradient" class="header"></div>
-            <div class="content contenttext">
-                <h1>Publications</h1>
+            <div id="rightfooter-gradient" class="footer"></div>
+        </div>
+        <div id="content">
+            <div class="leftcontainer">
+                <img src="/images/Helge_Holzmann_1.jpg" alt="Helge Holzmann" style="width: 210px; margin-bottom: 5px; margin-right: 10px; border: 1px solid black; float: left;"/>
+<div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
+        class="contrast-color">
+    Helge<span class="small-title">, Dr. (PhD)</span><br />
+    Holzmann
+</div>
+<p style="margin-top: 5px; margin-bottom: 2px; margin-left: 1px;" class="contenttext">
+    I am a software developer, researcher and consultant, located in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>, have a PhD in Computer Science, and work as Web Data Engineer for the <a href="https://archive.org" target="_blank">Internet Archive</a>. My focus is on the effective and efficient use of web archives and related topics, such as big data processing and information retrieval.
+</p>
+<ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px; float: left;">
+    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
+            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
+    <li><a href="https://www.github.com/helgeho" target="_blank"><i
+            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
+    <li><a href="https://www.xing.com/profile/Helge_Holzmann" target="_blank"><i
+            class="fa fa-xing-square fa-2x"></i> Helge on Xing</a></li>
+    <li><a href="https://www.linkedin.com/in/helgeho" target="_blank"><i
+            class="fa fa-linkedin-square fa-2x"></i> Helge on LinkedIn</a></li>
+    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
+            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
+</ul>
+            </div>
+            <div class="rightcontainer">
+                <nav>
+    <ul class="fa-ul">
+        <li><a href="/">Home <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/consulting">Consulting <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/publications">Publications <i class="fa fa-arrow-circle-left"></i></li>
+    </ul>
+    <ul class="fa-ul">
+        <li><a href="/talks">Talks <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/projects">Projects <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/contact">Contact <i class="fa fa-arrow-circle-left"></i></a></li>
+    </ul>
+    <div style="clear: both;"></div>
+    <hr />
+</nav>
+                <div class="contenttext">
+                    <h1>Publications</h1>
 
 
+
+    <h2>2019</h2>
+    
+        <p style="text-align: justify;">
+            
+                <span class="pubtype">phd thesis</span>
+            
+            <u>H. Holzmann</u>.
+            
+                <a href="https://www.repo.uni-hannover.de/handle/123456789/4476" target="_blank" style="font-weight: bold;">Concepts and Tools for the Effective and Efficient Use of Web Archives</a>.
+            
+            L3S Research Center @ Leibniz University of Hannover (L3S @ LUH).
+            Hannover, Germany.
+            February 2019.
+            
+            
+                <a href="/papers/PHD_THESIS_2019.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
+
+    <h2>2018</h2>
+    
+        <p style="text-align: justify;">
+            
+            <u>H. Holzmann</u>, A. Anand and M. Khosla.
+            
+                <a href="https://link.springer.com/chapter/10.1007/978-3-030-05411-3_9" target="_blank" style="font-weight: bold;">Delusive PageRank in Incomplete Graphs</a>.
+            
+            COMPLEX NETWORKS.
+            Cambridge, UK.
+            December 2018.
+            
+            
+                <a href="/papers/COMPLEX_NETWORKS_2018.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
+        <p style="text-align: justify;">
+            
+                <span class="pubtype">poster</span>
+            
+            A. Hoppe, J. Hagen, <u>H. Holzmann</u>, G. Kniesel and R. Ewerth.
+            
+                <a href="https://link.springer.com/chapter/10.1007/978-3-030-00066-0_27" target="_blank" style="font-weight: bold;">An Analytics Tool for Exploring Scientific Software and Related Publications</a>.
+            
+            22th International Conference on Theory and Practice of Digital Libraries (TPDL).
+            Porto, Portugal.
+            September 2018.
+            
+            
+                <a href="/papers/TPDL_2018.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
+        <p style="text-align: justify;">
+            
+            <u>H. Holzmann</u>, A. Anand and M. Khosla.
+            
+                <a href="http://www.mlgworkshop.org/2018/#papers" target="_blank" style="font-weight: bold;">What the HAK? Estimating Ranking Deviations in Incomplete Graphs</a>.
+            
+            14th International Workshop on Mining and Learning with Graphs @ 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (MLG @ KDD).
+            London, UK.
+            August 2018.
+            
+            
+                <a href="/papers/MLG_2018.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
+        <p style="text-align: justify;">
+            
+                <span class="pubtype">journal</span>
+            
+            P. Fafalios, <u>H. Holzmann</u>, V. Kasturia and W. Nejdl.
+            
+                <a href="https://link.springer.com/article/10.1007/s00799-018-0251-0" target="_blank" style="font-weight: bold;">Building and Querying Semantic Layers for Web Archives (Extended Version)</a>.
+            
+            International Journal on Digital Libraries (IJDL).
+            
+            July 2018.
+            
+            
+                <a href="/papers/IJDL_2018.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
+        <p style="text-align: justify;">
+            
+                <span class="pubtype">short</span>
+            
+            <u>H. Holzmann</u>, and M. Runnwerth.
+            
+                <a href="https://dl.acm.org/citation.cfm?id=3201110" target="_blank" style="font-weight: bold;">Micro Archives as Rich Digital Object Representations</a>.
+            
+            10th International ACM Conference on Web Science (WebSci).
+            Amsterdam, Netherlands.
+            May 2018.
+            
+            
+                <a href="/papers/WEBSCI_2018.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
 
     <h2>2017</h2>
     
@@ -76,11 +247,11 @@
             
                 <span class="pubtype">short</span>
             
-            <u>H. Holzmann</u>, Emily Novak Gustainis and Vinay Goel.
+            <u>H. Holzmann</u>, E. Novak Gustainis and V. Goel.
             
-                <a href="http://cci.drexel.edu/bigdata/bigdata2017/AcceptedPapers.html" target="_blank" style="font-weight: bold;">Universal Distant Reading through Metadata Proxies with ArchiveSpark</a>.
+                <a href="https://ieeexplore.ieee.org/document/8257958" target="_blank" style="font-weight: bold;">Universal Distant Reading through Metadata Proxies with ArchiveSpark</a>.
             
-            5th IEEE International Conference on Big Data  (BigData).
+            5th IEEE International Conference on Big Data (BigData).
             Boston, MA, USA.
             December 2017.
             
@@ -97,7 +268,7 @@
             
                 <a href="https://dl.acm.org/citation.cfm?id=3091500" target="_blank" style="font-weight: bold;">Exploring Web Archives Through Temporal Anchor Texts</a>.
             
-            7th International ACM Conference on Web science  (WebSci).
+            7th International ACM Conference on Web science (WebSci).
             Troy, NY, USA.
             June 2017.
             
@@ -114,7 +285,7 @@
             
                 <a href="http://ieeexplore.ieee.org/document/7991555" target="_blank" style="font-weight: bold;">Building and Querying Semantic Layers for Web Archives</a>.
             
-            17th ACM/IEEE-CS Joint Conference on Digital Libraries  (JCDL).
+            17th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL).
             Toronto, Ontario, Canada.
             June 2017.
             
@@ -135,7 +306,7 @@
             
                 <a href="https://archivedweb.blogs.sas.ac.uk/papers" target="_blank" style="font-weight: bold;">Accessing Web Archives from Diﬀerent Perspectives with Potential Synergies</a>.
             
-            2nd International Conference on Web Archives / Web Archiving Week  (RESAW/IIPC).
+            2nd International Conference on Web Archives / Web Archiving Week (RESAW/IIPC).
             London, UK.
             June 2017.
             
@@ -155,7 +326,7 @@
             
                 <a href="http://link.springer.com/chapter/10.1007/978-3-319-43997-6_17" target="_blank" style="font-weight: bold;">Archiving Software Surrogates on the Web for Future Reference</a>.
             
-            20th International Conference on Theory and Practice of Digital Libraries  (TPDL).
+            20th International Conference on Theory and Practice of Digital Libraries (TPDL).
             Hannover, Germany.
             September 2016.
             
@@ -178,7 +349,7 @@
             
                 <a href="http://dl.acm.org/citation.cfm?id=2914724" target="_blank" style="font-weight: bold;">On the Applicability of Delicious for Temporal Search on Web Archives</a>.
             
-            39th International ACM SIGIR Conference on Research and Development in Information Retrieval  (SIGIR).
+            39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR).
             Pisa, Italy.
             July 2016.
             
@@ -195,7 +366,7 @@
             
                 <a href="http://link.springer.com/chapter/10.1007/978-3-319-42432-3_52" target="_blank" style="font-weight: bold;">Linking Mathematical Software in Web Archives</a>.
             
-            5th International Congress on Mathematical Software  (ICMS).
+            5th International Congress on Mathematical Software (ICMS).
             Berlin, Germany.
             July 2016.
             
@@ -212,7 +383,7 @@
             
                 <a href="http://dl.acm.org/citation.cfm?id=2910902" target="_blank" style="font-weight: bold;">ArchiveSpark: Efficient Web Archive Access, Extraction and Derivation</a>.
             
-            16th ACM/IEEE-CS Joint Conference on Digital Libraries  (JCDL).
+            16th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL).
             Newark, New Jersey, USA.
             June 2016.
             
@@ -233,7 +404,7 @@
             
                 <a href="http://dl.acm.org/citation.cfm?id=2910901" target="_blank" style="font-weight: bold;">The Dawn of Today's Popular Domains: A Study of the Archived German Web over 18 Years</a>.
             
-            16th ACM/IEEE-CS Joint Conference on Digital Libraries  (JCDL).
+            16th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL).
             Newark, New Jersey, USA.
             June 2016.
             
@@ -252,7 +423,7 @@
             
                 <a href="http://dl.acm.org/citation.cfm?id=2890555" target="_blank" style="font-weight: bold;">Tempas: Temporal Archive Search Based on Tags</a>.
             
-            25th International Conference Companion on World Wide Web  (WWW).
+            25th International Conference Companion on World Wide Web (WWW).
             Montreal, Quebec, Canada.
             April 2016.
             
@@ -263,8 +434,42 @@
             
         </p>
     
+        <p style="text-align: justify;">
+            
+            <u>H. Holzmann</u>, W. Nejdl and A. Anand.
+            
+                <a href="http://dl.acm.org/citation.cfm?id=2910901" target="_blank" style="font-weight: bold;">The Dawn of Today's Popular Domains: A Study of the Archived German Web over 18 Years</a>.
+            
+            16th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL).
+            Newark, New Jersey, USA.
+            June 2016.
+            
+            
+                <a href="/papers/JCDL_2016.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
 
     <h2>2015</h2>
+    
+        <p style="text-align: justify;">
+            
+            T. Souza, E. Demidova, T. Risse, <u>H. Holzmann</u>, G. Gossen and J. Szymanski.
+            
+                <a href="https://link.springer.com/chapter/10.1007/978-3-319-27932-9_14" target="_blank" style="font-weight: bold;">Semantic URL Analytics to Support Efficient Annotation of Large Scale Web Archives</a>.
+            
+            1st COST Action IC1302 International KEYSTONE Conference (IKC).
+            Coimbra, Portugal.
+            September 2015.
+            
+            
+                <a href="/papers/IKC_2015.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
     
         <p style="text-align: justify;">
             
@@ -274,7 +479,7 @@
             
                 <a href="http://link.springer.com/article/10.1007/s00799-014-0135-x" target="_blank" style="font-weight: bold;">Named Entity Evolution Recognition on the Blogosphere</a>.
             
-            International Journal on Digital Libraries, Volume 15, Issue 2  (IJDL).
+            International Journal on Digital Libraries, Volume 15, Issue 2 (IJDL).
             
             April 2015.
             
@@ -294,7 +499,7 @@
             
                 <a href="http://link.springer.com/chapter/10.1007/978-3-319-11746-1_4" target="_blank" style="font-weight: bold;">Insights into Entity Name Evolution on Wikipedia</a>.
             
-            15th International Conference on Web Information Systems Engineering  (WISE).
+            15th International Conference on Web Information Systems Engineering (WISE).
             Thessaloniki, Greece.
             October 2014.
             
@@ -313,12 +518,31 @@
             
                 <a href="http://ieeexplore.ieee.org/document/6970201" target="_blank" style="font-weight: bold;">Extraction of Evolution Descriptions from the Web</a>.
             
-            14th ACM/IEEE-CS Joint Conference on Digital Libraries  (JCDL / DL).
+            14th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL / DL).
             London, UK.
             September 2014.
             
             
                 <a href="/papers/DL_2014.pdf" target="_blank" class="nodecoration">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            
+        </p>
+    
+        <p style="text-align: justify;">
+            
+                <span class="pubtype">journal</span>
+            
+            E. Demidova, N. Barbieri, S. Dietze, A. Funk, <u>H. Holzmann</u>, D. Maynard, N. Papailiou, W. Peters, T. Risse and D. Spiliotopoulos.
+            
+                <a href="https://www.mdpi.com/1999-5903/6/3/433" target="_blank" style="font-weight: bold;">Analysing and Enriching Focused Semantic Web Archives for Parliament Applications</a>.
+            
+            Future Internet, Volume 6, Issue 3.
+            
+            July 2014.
+            
+            
+                <a href="/papers/FUTURE_INTERNET_2014.pdf" target="_blank" class="nodecoration">
                     <i class="fa fa-file-pdf-o"></i>
                 </a>
             
@@ -332,7 +556,7 @@
             
                 <a href="http://dl.acm.org/citation.cfm?doid=2615569.2615639" target="_blank" style="font-weight: bold;">Named Entity Evolution Analysis on Wikipedia</a>.
             
-            6th International ACM Conference on Web science  (WebSci).
+            6th International ACM Conference on Web Science (WebSci).
             Bloomington, IN, USA.
             June 2014.
             
@@ -351,7 +575,7 @@
             
                 <a href="http://link.springer.com/article/10.1007/s11219-013-9206-2" target="_blank" style="font-weight: bold;">Tailoring video recording to support efficient GUI testing and debugging</a>.
             
-            Software Quality Journal, Volume 22, Issue 2 .
+            Software Quality Journal, Volume 22, Issue 2.
             
             June 2014.
             
@@ -371,7 +595,7 @@
             
                 <a href="http://ceur-ws.org/Vol-1091/paper3.pdf" target="_blank" style="font-weight: bold;">BlogNEER: Applying Named Entity Evolution Recognition on the Blogosphere</a>.
             
-            3rd International Workshop on Semantic Digital Archives @ 17th International Conference on Theory and Practice of Digital Libraries  (SDA @ TPDL).
+            3rd International Workshop on Semantic Digital Archives @ 17th International Conference on Theory and Practice of Digital Libraries (SDA @ TPDL).
             Valetta, Malta.
             September 2013.
             
@@ -391,7 +615,7 @@
             
                 <a href="http://www.aclweb.org/anthology/C12-1156" target="_blank" style="font-weight: bold;">NEER: An Unsupervised Method for Named Entity Evolution Recognition</a>.
             
-            24th International Conference on Computational Linguistics  (COLING).
+            24th International Conference on Computational Linguistics (COLING).
             Mumbai, India.
             December 2012.
             
@@ -410,7 +634,7 @@
             
                 <a href="http://www.aclweb.org/anthology/C12-3027" target="_blank" style="font-weight: bold;">fokas: Formerly Known As - A Search Engine Incorporating Named Entity Evolution</a>.
             
-            24th International Conference on Computational Linguistics  (COLING).
+            24th International Conference on Computational Linguistics (COLING).
             Mumbai, India.
             December 2012.
             
@@ -427,7 +651,7 @@
             
                 <a href="http://ieeexplore.ieee.org/document/6228977" target="_blank" style="font-weight: bold;">Beyond plain Video-Recording of GUI-Tests - Linking Test Case Instructions with Visual Response Documentation</a>.
             
-            7th IEEE/ACM International Workshop on Automation of Software Test @ 34th International Conference on Software Engineering  (AST @ ICSE).
+            7th IEEE/ACM International Workshop on Automation of Software Test @ 34th International Conference on Software Engineering (AST @ ICSE).
             Zurich, Switzerland.
             June 2012.
             
@@ -439,14 +663,38 @@
         </p>
     
 
+                </div>
+                <div id="aboutfooter">
+                    <hr id="aboutfooter-anchor" />
+                    <img src="/images/Helge_Holzmann_1.jpg" alt="Helge Holzmann" style="width: 210px; margin-bottom: 5px; margin-right: 10px; border: 1px solid black; float: left;"/>
+<div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
+        class="contrast-color">
+    Helge<span class="small-title">, Dr. (PhD)</span><br />
+    Holzmann
+</div>
+<p style="margin-top: 5px; margin-bottom: 2px; margin-left: 1px;" class="contenttext">
+    I am a software developer, researcher and consultant, located in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>, have a PhD in Computer Science, and work as Web Data Engineer for the <a href="https://archive.org" target="_blank">Internet Archive</a>. My focus is on the effective and efficient use of web archives and related topics, such as big data processing and information retrieval.
+</p>
+<ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px; float: left;">
+    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
+            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
+    <li><a href="https://www.github.com/helgeho" target="_blank"><i
+            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
+    <li><a href="https://www.xing.com/profile/Helge_Holzmann" target="_blank"><i
+            class="fa fa-xing-square fa-2x"></i> Helge on Xing</a></li>
+    <li><a href="https://www.linkedin.com/in/helgeho" target="_blank"><i
+            class="fa fa-linkedin-square fa-2x"></i> Helge on LinkedIn</a></li>
+    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
+            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
+</ul>
+                </div>
             </div>
-            <div id="rightfooter-gradient" class="footer"></div>
         </div>
     </div>
     <div id="footer" class="footer">
         <div class="pagebox">
             <div class="rightcontainer">
-                &copy; 2017 Helge Holzmann. All rights reserved.
+                &copy; 2019 Helge Holzmann. All rights reserved. <a href="/consulting" style="text-decoration: underline;">Imprint</a>
             </div>
         </div>
     </div>

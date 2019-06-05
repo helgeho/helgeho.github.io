@@ -1,6 +1,16 @@
 <html>
 <head>
     <title>Helge Holzmann - @helgeho</title>
+
+    <script type="text/javascript">
+        (function () {
+            var width = 700;
+            var device = Math.min(screen.width, screen.height);
+            var scale = device / width;
+            document.write("<meta name=\"viewport\" content=\"width=" + width + ", user-scalable=no, initial-scale=" + scale + "\" />");
+        })();
+    </script>
+
     <link rel="shortcut icon" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/academicons.min.css">
@@ -24,62 +34,131 @@
         <div id="pageheader" class="pagebox">
             <a href="/"><img src="/images/logo.png" id="logo" /></a>
             <nav>
-                <ul class="fa-ul">
-                    <li><a href="/">Home <i class="fa fa-arrow-circle-left"></i></li>
-                    <li><a href="/">Research <i class="fa fa-arrow-circle-left"></i></li>
-                    <li><a href="/publications">Publications <i class="fa fa-arrow-circle-left"></i></li>
-                </ul>
-                <ul class="fa-ul">
-                    <li><a href="/">Private <i class="fa fa-arrow-circle-left"></i></a></li>
-                    <li><a href="/">Projects <i class="fa fa-arrow-circle-left"></i></a></li>
-                    <li><a href="/contact">Contact <i class="fa fa-arrow-circle-left"></i></a></li>
-                </ul>
-            </nav>
+    <ul class="fa-ul">
+        <li><a href="/">Home <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/consulting">Consulting <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/publications">Publications <i class="fa fa-arrow-circle-left"></i></li>
+    </ul>
+    <ul class="fa-ul">
+        <li><a href="/talks">Talks <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/projects">Projects <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/contact">Contact <i class="fa fa-arrow-circle-left"></i></a></li>
+    </ul>
+    <div style="clear: both;"></div>
+    <hr />
+</nav>
+            <a href="#aboutfooter-anchor" id="aboutfooter-link">
+                <span>about me</span>
+                <img src="/images/Helge_Holzmann_1.jpg" alt="about" style="height: 45px; border: 1px solid black;"/>
+            </a>
         </div>
     </div>
     <div id="pagecontainer" class="pagebox">
-        <div id="leftcontainer">
-            <div class="content">
-                <img src="/images/Helge_Holzmann.jpg" alt="Helge Holzmann"
-                     style="width: 210px; margin-bottom: 5px;"/>
-                <div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
-                     class="contrast-color">
-                    Helge Holzmann
-                </div>
-                <p style="margin-top: 3px; margin-bottom: 0px;" class="contenttext">
-                    I am a researcher and PhD candidate at the <a href="http://www.L3S.de" target="_blank">L3S Research Center</a> in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>.
-                    My main research interest is on Web archives and related topics, such as big data processing, graph
-                    analysis and information retrieval.
-                </p>
-                <ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px;">
-                    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
-                            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
-                    <li><a href="http://www.github.com/helgeho" target="_blank"><i
-                            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
-                    <li><a href="http://www.arxiv.org/a/holzmann_h_1" target="_blank"><i
-                            class="fa ai ai-arxiv-square fa-2x"></i> Helge on arXiv</a></li>
-                    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
-                            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
-                </ul>
-            </div>
+        <div id="fixedabout" class="leftcontainer">
+            <img src="/images/Helge_Holzmann_1.jpg" alt="Helge Holzmann" style="width: 210px; margin-bottom: 5px; margin-right: 10px; border: 1px solid black; float: left;"/>
+<div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
+        class="contrast-color">
+    Helge<span class="small-title">, Dr. (PhD)</span><br />
+    Holzmann
+</div>
+<p style="margin-top: 5px; margin-bottom: 2px; margin-left: 1px;" class="contenttext">
+    I am a software developer, researcher and consultant, located in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>, have a PhD in Computer Science, and work as Web Data Engineer for the <a href="https://archive.org" target="_blank">Internet Archive</a>. My focus is on the effective and efficient use of web archives and related topics, such as big data processing and information retrieval.
+</p>
+<ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px; float: left;">
+    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
+            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
+    <li><a href="https://www.github.com/helgeho" target="_blank"><i
+            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
+    <li><a href="https://www.xing.com/profile/Helge_Holzmann" target="_blank"><i
+            class="fa fa-xing-square fa-2x"></i> Helge on Xing</a></li>
+    <li><a href="https://www.linkedin.com/in/helgeho" target="_blank"><i
+            class="fa fa-linkedin-square fa-2x"></i> Helge on LinkedIn</a></li>
+    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
+            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
+</ul>
         </div>
-        <div id="rightcontainer" class="rightcontainer">
+        <div id="rightgradients" class="rightcontainer">
             <div id="rightheader-gradient" class="header"></div>
-            <div class="content contenttext">
-                <h1 id="contact-me">Contact me</h1>
+            <div id="rightfooter-gradient" class="footer"></div>
+        </div>
+        <div id="content">
+            <div class="leftcontainer">
+                <img src="/images/Helge_Holzmann_1.jpg" alt="Helge Holzmann" style="width: 210px; margin-bottom: 5px; margin-right: 10px; border: 1px solid black; float: left;"/>
+<div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
+        class="contrast-color">
+    Helge<span class="small-title">, Dr. (PhD)</span><br />
+    Holzmann
+</div>
+<p style="margin-top: 5px; margin-bottom: 2px; margin-left: 1px;" class="contenttext">
+    I am a software developer, researcher and consultant, located in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>, have a PhD in Computer Science, and work as Web Data Engineer for the <a href="https://archive.org" target="_blank">Internet Archive</a>. My focus is on the effective and efficient use of web archives and related topics, such as big data processing and information retrieval.
+</p>
+<ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px; float: left;">
+    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
+            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
+    <li><a href="https://www.github.com/helgeho" target="_blank"><i
+            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
+    <li><a href="https://www.xing.com/profile/Helge_Holzmann" target="_blank"><i
+            class="fa fa-xing-square fa-2x"></i> Helge on Xing</a></li>
+    <li><a href="https://www.linkedin.com/in/helgeho" target="_blank"><i
+            class="fa fa-linkedin-square fa-2x"></i> Helge on LinkedIn</a></li>
+    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
+            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
+</ul>
+            </div>
+            <div class="rightcontainer">
+                <nav>
+    <ul class="fa-ul">
+        <li><a href="/">Home <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/consulting">Consulting <i class="fa fa-arrow-circle-left"></i></li>
+        <li><a href="/publications">Publications <i class="fa fa-arrow-circle-left"></i></li>
+    </ul>
+    <ul class="fa-ul">
+        <li><a href="/talks">Talks <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/projects">Projects <i class="fa fa-arrow-circle-left"></i></a></li>
+        <li><a href="/contact">Contact <i class="fa fa-arrow-circle-left"></i></a></li>
+    </ul>
+    <div style="clear: both;"></div>
+    <hr />
+</nav>
+                <div class="contenttext">
+                    <h1 id="contact-me">Contact me</h1>
 
 <p>Please get in touch, you can find my contact information right there:</p>
 
 <p><br /><img src="/images/contact_arrow.png" /></p>
 
+                </div>
+                <div id="aboutfooter">
+                    <hr id="aboutfooter-anchor" />
+                    <img src="/images/Helge_Holzmann_1.jpg" alt="Helge Holzmann" style="width: 210px; margin-bottom: 5px; margin-right: 10px; border: 1px solid black; float: left;"/>
+<div style="font-weight: bold; font-variant: small-caps; font-size: 200%; line-height: 80%;"
+        class="contrast-color">
+    Helge<span class="small-title">, Dr. (PhD)</span><br />
+    Holzmann
+</div>
+<p style="margin-top: 5px; margin-bottom: 2px; margin-left: 1px;" class="contenttext">
+    I am a software developer, researcher and consultant, located in <a href="https://www.google.de/maps/place/Hannover" target="_blank">Hannover, Germany</a>, have a PhD in Computer Science, and work as Web Data Engineer for the <a href="https://archive.org" target="_blank">Internet Archive</a>. My focus is on the effective and efficient use of web archives and related topics, such as big data processing and information retrieval.
+</p>
+<ul id="contact-links" class="fa-ul contrast-color" style="font-weight: bold; margin-left: 0; margin-top: 3px; float: left;">
+    <li><a href="https://twitter.com/search?q=%40helgeho" target="_blank"><i
+            class="fa fa-twitter-square fa-2x"></i> @helgeho on Twitter</a></li>
+    <li><a href="https://www.github.com/helgeho" target="_blank"><i
+            class="fa fa-github-square fa-2x"></i> helgeho on GitHub</a></li>
+    <li><a href="https://www.xing.com/profile/Helge_Holzmann" target="_blank"><i
+            class="fa fa-xing-square fa-2x"></i> Helge on Xing</a></li>
+    <li><a href="https://www.linkedin.com/in/helgeho" target="_blank"><i
+            class="fa fa-linkedin-square fa-2x"></i> Helge on LinkedIn</a></li>
+    <li><a href="mailto:mail@helgeholzmann.de" target="_blank"><i
+            class="fa fa-envelope-square fa-2x"></i> Email me!</a></li>
+</ul>
+                </div>
             </div>
-            <div id="rightfooter-gradient" class="footer"></div>
         </div>
     </div>
     <div id="footer" class="footer">
         <div class="pagebox">
             <div class="rightcontainer">
-                &copy; 2017 Helge Holzmann. All rights reserved.
+                &copy; 2019 Helge Holzmann. All rights reserved. <a href="/consulting" style="text-decoration: underline;">Imprint</a>
             </div>
         </div>
     </div>
