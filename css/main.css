@@ -157,6 +157,7 @@ img {
 
 #fixedabout {
     top: 85px;
+    z-index: 10;
 }
 
 nav hr {
