@@ -332,4 +332,8 @@ hr {
     #aboutfooter-link {
         display: block;
     }
+
+    #contact-arrow {
+        display: none;
+    }
 }
